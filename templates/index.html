@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PM2.5 Forecast Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Ghaziabad PM2.5 Forecast (Next 72 Hours)</h1>
+  <canvas id="pm25Chart" width="600" height="300"></canvas>
+
+  <script src="{{ url_for('static', filename='chart.js') }}"></script>
+</body>
+</html>
