@@ -36,5 +36,5 @@ The predictions are served through an API and displayed using an interactive lin
 
 ---
 
-## 📂 Project Structure
+
 
